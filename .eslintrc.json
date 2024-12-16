@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    // Add or modify your rules here
+  },
+  // Other ESLint configurations
+}

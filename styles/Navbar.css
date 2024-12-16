@@ -1,0 +1,1170 @@
+
+
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+/* top navbar section :start */
+.top_navbar_offer_section {
+    background-color: slateblue;
+    padding: 10px 20px;
+}
+
+.top_navbar_offer_section .offer_div {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.top_navbar_offer_section .offer_div .offer_div_1st_content {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.top_navbar_offer_section .offer_div .offer_div_2nd_content {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+
+.countdown li span.digit {
+    min-width: 25px;
+    width: auto;
+    background: linear-gradient(126deg, #f5a623, #f76b1c);
+    color: #ffffff;
+    height: 20px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 0px;
+    font-weight: 500;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.countdown {
+    list-style-type: none;
+    font-family: "Open sans";
+    padding: 0;
+    margin: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+}
+
+.countdown li {
+    display: inline-block;
+    width: auto;
+}
+
+.countdown li span.text_ref {
+    color: #ffffff;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.offer_div_timmer {
+    display: flex;
+}
+
+.grab_offer {
+    margin-left: 0.8rem;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline white;
+    font-weight: 600;
+}
+
+.close_offer_btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+.navabr_vertical_line {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0 0.5rem;
+}
+
+/* top navbar section :end */
+
+/* middle navbar section :start */
+.middle_navbar_section {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 60px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to left, #248de4, #0c5397);
+    padding: 13px 3rem;
+}
+
+.middle_navbar_section .navbar_logo_section {
+    min-width: 136px;
+    display: inline-block;
+}
+
+.middle_navbar_section .display_flex {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.navbar_logo_section a img {
+    width: auto;
+    height: 34px;
+    margin-right: 20px;
+}
+
+.navbar_seacrh_section {
+    display: flex;
+    position: relative;
+    width: calc(100% - 630px);
+    max-width: 630px;
+}
+
+.navbar_seacrh_section_input {
+    cursor: pointer;
+    height: 35px;
+    border-radius: 2px;
+    background: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a4a4a;
+    padding: 7px 70px 7px 15px;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    position: relative;
+}
+
+
+
+.navbar_seacrh_section::after {
+    display: grid;
+    align-items: center;
+    content: "\f002"!important;
+    color: #ffffff;
+    position: absolute;
+    font: normal normal normal 14px/1 FontAwesome!important;
+    right: 0;
+    font-size: 14px;
+    background: linear-gradient(126deg, #f5a623, #f76b1c);
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 0;
+    border-radius: 2px;
+}
+
+
+
+.middle_navbar_section .right_menu {
+    display: flex;
+    list-style-type: none;
+    padding-top: 0;
+    float: right;
+    width: 50% !important;
+    justify-content: space-around;
+}
+
+.right_menu li {
+    position: relative;
+    display: block;
+}
+
+.right_menu li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.right_menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    background: transparent;
+    font-size: 1rem;
+    padding: 7px 10px;
+    display: inline-block;
+    position: relative;
+}
+
+/* middle navbar section :end */
+
+/* search input course box css :start */
+.popular-courses {
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #192f60, #6c757d);
+}
+
+
+.popular-courses:hover {
+    transition: 0.5s ease-in;
+    box-shadow: 0px 40px 40px 0px rgb(14 17 51 / 10%);
+    transform: translatey(-8px);
+    background: linear-gradient(45deg, #192f60, #343a40);
+}
+
+.popular-courses p {
+    color: #fff3cd;
+}
+
+
+.popular-courses h5 {
+    font-weight: 700;
+    color: #fff;
+}
+
+.popular-courses .knowmore {
+    text-align: right;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.54;
+    color: #ffb02e;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+
+    /* bottom: 20px; */
+    right: 34px;
+}
+
+.popular-courses .knowmore:hover {
+    color: #fff;
+}
+
+
+/* search input course box css :end */
+
+/* search input modal css :start */
+
+.search_overlay_new .modal-dialog .modal-content .head_title_close {
+    position: relative;
+    padding-left: 72px;
+    margin-bottom: 1rem;
+}
+
+.search_input input {
+    border-radius: 25px;
+    border: 2px solid #0857cd;
+    background-color: #fff;
+    box-shadow: none;
+    width: 50%;
+    height: 50px;
+    font-size: 14px;
+    color: #5a6484;
+    padding-left: 43px;
+}
+
+.search_input{
+    display: flex;
+}
+.search_overlay_new {
+    padding-right: 0px !important;
+}
+
+.search_overlay_new .modal-dialog {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border: none;
+    margin: 0;
+    background: #f4f5f7;
+}
+
+
+.search_overlay_new .modal-dialog .modal-content {
+    border: none;
+    border-radius: 0;
+    height: auto;
+    padding: 38px 38px 48px;
+    background: #f4f5f7;
+}
+
+.search_overlay_new .modal-dialog .modal-content .head_title_close button.close {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, .1);
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/* search input modal css :end */
+
+
+.bottom_navabr_section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff !important;
+    padding: 7px 40px;
+    text-align: start;
+    position: relative;
+    /* overflow: hidden; */
+    max-height: 45px;
+    margin: 0;
+    border: none !important;
+}
+
+.navbar_collapse {
+    width: calc(100% - 130px);
+    display: inline-block !important;
+    padding: 0;
+}
+
+.navbar_collapse ul {
+    margin: 5px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+.navbar_collapse ul li {
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    /* margin-right: 15px; */
+    padding: 0 5px;
+    line-height: normal;
+    position: relative;
+}
+
+.navbar_collapse ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 16.5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4a4a4a;
+    padding: 5px 10px;
+}
+
+.navbar_collapse ul li a:hover {
+    background-color: #efefef;
+}
+
+
+/* Style the tab */
+.tab {
+    float: left;
+    /* border-right: 1px solid #ccc; */
+    background-color: #f1f1f1;
+    width: 35%;
+    height: 100%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 3px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    /* background-color: #ccc;
+        background: linear-gradient(126deg, #f5a623, #f76b1c);*/
+    color: #fff;
+    background-color: #0c5599;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 12px 0;
+    /* border: 1px solid #ccc; */
+    width: 65%;
+    border-left: none;
+    /* overflow-y: auto;
+        overflow: hidden; */
+    height: 100%;
+}
+
+.tabcontent ul {
+    padding-left: 12px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.tabcontent ul li {
+    margin-bottom: 0.3rem;
+}
+
+.tabcontent ul li a {
+    font-size: 0.875rem;
+    color: #4a4a4a;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 500;
+    padding: 7px 10px 7px 20px;
+    white-space: normal;
+
+}
+
+.tabcontent ul li a:hover {
+    color: #0857cd;
+
+}
+
+/* left dropdown menu start */
+.left_dropdown_menu {
+    position: relative !important;
+    display: none;
+}
+
+
+.left_dropdown_btn {
+    cursor: pointer;
+    opacity: .9;
+    border-radius: 16.5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a4a4a;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #efefef;
+}
+
+
+.left_dropdown_content {
+    border: none;
+    margin-top: 5px;
+    left: 0;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 700px;
+    box-shadow: none;
+    z-index: 1000;
+
+}
+
+.left_dropdown_content .drodwon_item {
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+    border-radius: none;
+    display: block;
+    display: inline-block;
+    white-space: normal;
+    width: 100%;
+
+}
+
+.left_dropdown_content .drodwon_item:hover {
+    background-color: #0c5599;
+    color: #fff;
+    border-radius: none;
+}
+
+.left_dropdown_show {
+    display: block;
+}
+
+/* left dropdown menu end */
+
+/* right dropdown menu start */
+.right_dropdown_menu {
+    position: relative !important;
+    display: inline-block !important;
+}
+
+.right_dropdown_content {
+    border-radius: 2px;
+    border: medium none;
+    background: linear-gradient(to right, #f1f1f1, #f4f4f4);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    width: 280px;
+    padding: 0;
+}
+
+.right_dropdown_btn {
+    cursor: pointer;
+    opacity: .9;
+    border-radius: 16.5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a4a4a;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #efefef;
+}
+
+
+.right_dropdown_content {
+    right: 0;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.right_dropdown_content .drodwon_item {
+    text-transform: capitalize;
+    margin: 3px 0;
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    border-radius: 0;
+    display: block;
+    display: inline-block;
+    white-space: normal;
+    width: 100%;
+
+}
+
+.right_dropdown_content .drodwon_item:hover {
+    background-color: #0c5599;
+    color: #fff;
+}
+
+.right_dropdown_show {
+    display: block;
+}
+
+/* right dropdown menu end */
+
+/* responsive css */
+.middle_mobile_navbar_section {
+    display: none;
+}
+
+
+/* sidenav only for mobile css  start*/
+
+.mobile_sidenav_dropdown {
+    display: none;
+    cursor: pointer;
+    opacity: .9;
+    border-radius: 16.5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a4a4a;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.course_sidenav {
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    left: -100%;
+    /* Initially hidden by shifting left */
+    top: 0;
+    transition: left 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 10000;
+    /* Ensure it overlays other content */
+}
+
+.course_sidenav .main-tab {
+    width: 100% !important;
+    align-items: center;
+    padding: 10px 20px;
+    color: #444;
+    cursor: pointer;
+}
+
+.side_nav_submenu {
+    overflow-y: auto;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+.course_sidenav.open {
+    left: 0;
+    /* Show the sidenav by shifting it to the visible area */
+}
+
+.controls_categ {
+    width: 100%;
+    background: #f3f3f3;
+    border-bottom: 1px solid #d7d7d6;
+    font-size: 15px;
+    color: #000;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls_categ p {
+    margin-bottom: 0;
+}
+
+.sidenav_m_close {
+    font-size: 2rem;
+}
+
+.show_main_tabs {
+    display: flex;
+    padding: 10px 20px;
+    /* background: #fafafa;
+    color: #444; */
+    background: #075bd9;
+    color: #fff;
+    align-items: center;
+}
+
+.show_main_tabs i {
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+
+.course_sidenav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+    color: #444;
+}
+
+.course_sidenav a:hover {
+    color: #fff !important;
+    background-color: #075bd9;
+
+}
+
+
+.main-tab i {
+    font-size: 1.4rem;
+    right: 30px;
+    position: absolute;
+    font-size: 1.4rem;
+}
+
+/* sidenav only for mobile css  end*/
+
+/* placement dropdown css start */
+.middle_navbar_section ul .placementdropdown button {
+    background: transparent !important;
+    color: #fff;
+}
+
+/* Basic styling for the dropdown */
+.placementdropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.placementdropdown button i {
+    width: 1rem;
+    height: 1rem;
+    color: #fff !important;
+
+}
+
+.placementdropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.placementdropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    max-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.placementdropdowncontent ul {
+    padding: 0;
+}
+
+/* Links inside the dropdown */
+.placementdropdowncontent ul li a {
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    color: #444;
+}
+
+.placementdropdowncontent ul li a marquee {
+    color: red;
+}
+
+.placementdropdowncontent ul li a:hover {
+    color: navy;
+}
+
+/* Change color of dropdown links on hover */
+.placementdropdowncontent ul li a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.placementdropdown:hover .placementdropdowncontent {
+    display: block;
+}
+
+/* Change the background color of the button when the dropdown is open */
+.placementdropdown:hover .placementdropbtn {
+    background-color: #3e8e41;
+}
+
+/* placement dropdown css end */
+
+@media only screen and (max-width:1440px) {
+    .navbar_collapse ul li {
+        text-decoration: none;
+        display: inline-block;
+        width: auto;
+        margin-right: 0px;
+    }
+}
+
+
+/* country flag wise css */
+.countryWiseCourse {
+    position: relative;
+    margin-top: 2px;
+}
+
+.countryWiseCourseDropdown {
+    z-index: 1000;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    min-width: 150px;
+}
+
+.countryWiseCourse a {
+    cursor: pointer;
+    opacity: .9;
+    border-radius: 16.5px;
+    font-size: 14px;
+    font-weight: 400;
+    /* color: #4a4a4a; */
+    z-index: 1000;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #efefef;
+    color: #4a4a4a;
+}
+
+.countryWiseCourseDropdown li a {
+    border-radius: 0;
+    background-color: #fff;
+    color: #4a4a4a;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    line-height: normal;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.countryWiseCourseDropdown li img {
+    width: 30px;
+    height: auto;
+}
+
+.countryWiseCourseDropdown li a:hover {
+    background-color: #f5f5f5;
+    color: #4a4a4a;
+}
+
+/* Show dropdown on hover */
+.countryWiseCourse:hover .countryWiseCourseDropdown {
+    display: block;
+}
+
+.right_side_m_menu {
+    display: block;
+}
+
+.right_side_flag_m_menu {
+    display: none;
+}
+
+/* country flag wise css */
+
+
+.right_dropdown_content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 250px;
+    z-index: 1000;
+  }
+  
+  .right_dropdown_menu:hover .right_dropdown_content {
+    display: block;
+  }
+  
+  .right_dropdown_content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .right_dropdown_content a:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+@media only screen and (max-width:575px) {
+    .countryWiseCourse {
+        display: none;
+    }
+
+    .right_side_m_menu {
+        display: none !important;
+    }
+
+    .right_side_flag_m_menu {
+        display: block;
+    }
+
+    .right_side_flag_m_menu li a {
+        margin-top: 10px;
+        border-bottom: none;
+
+    }
+
+    /* country flag wise css */
+
+    .hidden-sm {
+        display: none !important;
+    }
+
+    .top_navbar_offer_section {
+        display: none;
+    }
+
+    .middle_mobile_navbar_section {
+        display: block;
+        width: 100%;
+        background-color: #075bd9;
+        padding: 10px;
+    }
+
+    .middle_mobile_navbar_top_section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .middle_mobile_navbar_top_section .course_logo {
+        display: flex;
+        align-items: center;
+        left: 0;
+    }
+
+    .middle_mobile_navbar_top_section .course_logo .mobile_bars {
+        color: #fff;
+        margin-right: 1rem;
+        margin-top: 6px;
+    }
+
+    .middle_mobile_navbar_top_section .course_logo a img {
+        width: auto;
+        height: 30px;
+
+    }
+
+    .middle_mobile_navbar_top_section .offer_call {
+        right: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile_call_btn {
+        color: #fff !important;
+        font-size: 1.3rem;
+    }
+
+    .top_header_btn {
+        background-color: #fff;
+        padding: 3px 12px;
+        font-weight: 500;
+        color: #000;
+        border-radius: 3px;
+        font-size: 14px;
+        border: 0;
+        margin-right: 10px;
+    }
+
+    .navbar_seacrh_section {
+        margin-top: 1rem;
+    }
+
+    .navbar_seacrh_section .navbar_seacrh_section_input {
+        display: flex;
+        font-size: 13px;
+        align-items: center;
+    }
+
+    /* bottom header */
+
+
+    .navbar_collapse {
+        display: flex !important;
+        padding: 0;
+        align-items: center;
+    }
+
+    .navbar_collapse ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        text-decoration: none;
+        margin: 0;
+    }
+
+    .navbar_collapse ul li {
+        margin-right: 0px;
+        line-height: normal;
+    }
+
+    .bottom_navabr_section {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navbar_collapse ul li a {
+        cursor: pointer;
+        border-radius: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #4a4a4a;
+        padding: 0 5px 0 0;
+
+    }
+
+    .left_dropdown_btn,
+    .right_dropdown_btn {
+        background-color: transparent;
+    }
+
+    .right_dropdown_content .drodwon_item {
+        margin: 5px 0px;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+
+    .mobile_sidenav_dropdown {
+        padding: 0;
+        display: block;
+    }
+
+
+    .search_overlay_new .modal-dialog .modal-content {
+        padding: 20px;
+    }
+
+    .search_overlay_new .modal-dialog .modal-content .head_title_close button.close {
+        margin-top: 10px;
+        opacity: 1;
+        position: absolute;
+        left: 0;
+        box-shadow: none;
+        background-color: transparent;
+        border-radius: 50%;
+        width: auto;
+        height: auto;
+    }
+
+    .search_overlay_new .modal-dialog .modal-content .head_title_close {
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+
+    .search_input input {
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+
+    .search_overlay_new .modal-dialog .modal-content .head_title_close button.close {
+        left: -15px;
+    }
+
+    .popular-courses {
+        margin-bottom: 20px;
+    }
+}
+
+
+    .mobileMenu button {
+        /* margin-left: 1rem; */
+        margin-top: 2rem;
+        border-radius: 5px;
+        line-height: normal;
+        padding: 10px 1rem;
+        width: 100%;
+        font-size: 1.1rem;
+        background-color: #075bd9;
+        color: #fff;
+        border: none;
+
+        /*  */
+
+        animation-iteration-count: infinite;
+        animation-name: Mobilemenubutton_shake;
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-delay: 0;
+        animation-play-state: running;
+    }
+
+    .mobileMenu button svg {
+        margin-right: 5px;
+    }
+
+    .mobilemenu_call_form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .mobilemenu_call_form a {
+        color: #fff;
+    }
+
+
+
+    @keyframes Mobilemenubutton_shake {
+        0% {
+            transform: scaleX(1)
+        }
+
+        2.5%,
+        5% {
+            transform: scale3d(.9, .9, .9) rotate(-3deg)
+        }
+
+        12.5%,
+        17.5%,
+        22.5%,
+        7.5% {
+            transform: scale3d(1.1, 1.1, 1.1) rotate(3deg)
+        }
+
+        10%,
+        15%,
+        20% {
+            transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg)
+        }
+
+        25%,
+        to {
+            transform: scaleX(1)
+        }
+    }
+
+    /* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    /* max-width: 500px; */
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Close Button */
+  .search_overlay_close {
+    cursor: pointer;
+  }
+  
